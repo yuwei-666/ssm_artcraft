@@ -26,7 +26,7 @@
     if ('${status}' != '') {
         if ('${status}' == 0) {
             alert('登录成功,即将跳转至用户详情页！')
-            location.href = '/user/userInfo'
+            location.href = '${pageContext.request.contextPath}/user/userInfo'
         }else if ('${status}' == 1) {
             alert('该账户不存在！');
         }

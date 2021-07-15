@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="helloworld.war">
+    <root id="archive" name="artcraft.war">
       <element id="artifact" artifact-name="artcraft:war exploded" />
     </root>
   </artifact>
